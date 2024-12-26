@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: pink;
+    background-image:none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url("https://media.istockphoto.com/id/1301592082/photo/beautiful-meadow-field-with-fresh-grass-and-yellow-dandelion-flowers-in-nature.jpg?b=1&s=612x612&w=0&k=20&c=D2pZlBdxd1Pod9jvpA2GO5oTxaV9p45XKu0J2tYBEew=");
+}
+
+.container {
+    min-height: 70vh;
+    width: 60%;
+    border: 8px solid rgb(11, 6, 9);
+    margin: 4rem auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 35px rgba(52, 43, 43, 0.6);
+    position: relative;
+    background: url("https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center/cover;
+    transition: background 1s ease-in-out;
+}
+
+.btn-left, .btn-right {
+    position: absolute;
+    top: 50%;
+    background-color: aliceblue;
+    padding: 2em 0.5em;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.btn-left {
+    left: -2%;
+}
+
+.btn-right {
+    right: -2%;
+}
+h1{
+    font-weight:bolder ;
+    font-size:50px ;
+    text-align: center;
+    text-decoration: aliceblue;
+    text-shadow: 0cqi;
+}
